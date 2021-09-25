@@ -48,7 +48,7 @@ void display(struct Node *p)	//DISPLAYING LINKED LIST
 			printf("\n\n");
 	}
 
-void print_odd(struct Node *p)
+void print_Even(struct Node *p)
 	{
 		printf("\n Even values from the above linked list are :\n");
 		while(p!=NULL)
@@ -65,7 +65,7 @@ int main()
 	{
 		create();
 		display(head);
-		print_odd(head);
+		print_Even(head);
 	}
 
 	
